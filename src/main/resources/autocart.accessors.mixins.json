@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.autocart.accessor",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "IInteractionManager"
+  ],
+  "mixins": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "autocart-refmap.json"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "autocart",
+  "version": "${version}",
+  "name": "AutoCart",
+  "description": "Standalone AutoCart TNT Minecart combat module for Minecraft 1.21.4.",
+  "authors": ["ftl2ndofficial"],
+  "contact": {
+    "sources": "https://github.com/ftl2ndofficial/VCore-0.8"
+  },
+  "license": "MIT",
+  "icon": "assets/autocart/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.autocart.AutoCartMod"],
+    "modmenu": ["dev.autocart.config.AutoCartModMenuIntegration"]
+  },
+  "mixins": [
+    "autocart.mixins.json",
+    "autocart.accessors.mixins.json"
+  ],
+  "accessWidener": "autocart.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "recommends": {
+    "modmenu": "*"
+  }
+}

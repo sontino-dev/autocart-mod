@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.autocart.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MixinClientPlayerEntity",
+    "MixinClientPlayNetworkHandler",
+    "MixinClientPlayerInteractionManager",
+    "MixinKeyboardInput"
+  ],
+  "mixins": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "autocart-refmap.json"
+}
